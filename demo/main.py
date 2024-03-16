@@ -100,14 +100,13 @@ class Window(FramelessWindow):
 
     def showMessageBox(self):
         w = MessageBox(
-            '支持作者🥰',
-            '个人开发不易，如果这个项目帮助到了您，可以考虑请作者喝一瓶快乐水🥤。您的支持就是作者开发和维护项目的动力🚀',
+            '开源地址',
+            'https://github.com/yinppp/nemc-edit-extension/',
             self
         )
-        w.yesButton.setText('ok')
-        w.cancelButton.hide()
+        w.yesButton.setText('访问网站')
         if w.exec():
-            pass
+            QDesktopServices.openUrl(QUrl("https://github.com/yinppp/nemc-edit-extension/"))
 
 
 if __name__ == '__main__':
