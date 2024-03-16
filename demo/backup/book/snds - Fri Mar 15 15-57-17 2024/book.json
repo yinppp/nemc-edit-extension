@@ -1,0 +1,16 @@
+{
+    "content": "内容123123",
+    "editor_identifier": "snds",
+    "item": "minecraft:apple",
+    "title1": "主标题",
+    "title2": "副标题",
+    "titleArea": {
+        "offset": [
+            -10,
+            0
+        ],
+        "padding": 1,
+        "textSize1": 9,
+        "textSize2": 8
+    }
+}
